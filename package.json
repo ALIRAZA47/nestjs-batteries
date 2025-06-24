@@ -1,5 +1,5 @@
 {
-  "name": "@yourorg/nest-starter-kit",
+  "name": "@kitstack/nestjs-batteries",
   "version": "0.1.0",
   "description": "A NestJS module with built-in auth, caching, and DB switching",
   "main": "dist/index.js",
@@ -8,9 +8,24 @@
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
+  "keywords": [
+    "nestjs",
+    "starter",
+    "auth",
+    "cache",
+    "mongodb",
+    "typeorm",
+    "sql",
+    "redis",
+    "batteries"
+  ],
+  "author": {
+    "name": "Kitstack",
+    "email": "kitstack@alirazakhan.me",
+    "url": "https://alirazakhan.me"
+  },
+  "license": "MIT",
   "dependencies": {
-    "@nestjs/common": "^10.0.0",
-    "@nestjs/core": "^10.0.0",
     "@nestjs/jwt": "^10.0.0",
     "@nestjs/passport": "^10.0.0",
     "@nestjs/typeorm": "^10.0.0",
@@ -21,6 +36,10 @@
     "cache-manager-redis-store": "^3.0.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.0.0"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/core": "^10.0.0"
   },
   "devDependencies": {
     "typescript": "^5.0.0"
