@@ -1,6 +1,6 @@
 {
   "name": "@kitstack/nestjs-batteries",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A NestJS module with built-in auth, caching, and DB switching",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,11 +12,9 @@
     "nestjs",
     "starter",
     "auth",
-    "cache",
     "mongodb",
     "typeorm",
     "sql",
-    "redis",
     "batteries"
   ],
   "author": "Kitstack <kitstack@alirazakhan.me> (https://alirazakhan.me)",
