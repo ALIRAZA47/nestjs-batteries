@@ -1,0 +1,39 @@
+
+---
+
+### ⚙️ `.gitignore`
+
+```gitignore
+# Node
+node_modules/
+dist/
+build/
+.env
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Compiled output
+/lib
+/out
+/coverage
+
+# VS Code
+.vscode/
+
+# JetBrains (WebStorm, PhpStorm, IntelliJ)
+.idea/
+*.iml
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
