@@ -2,7 +2,7 @@
 
 A drop-in NestJS module with built-in support for **JWT authentication** and **database integration** (MongoDB or SQL). Bring your own config, and we handle the rest.
 
-[![npm version](https://badge.fury.io/js/%40yourorg%2Fnestjs-batteries.svg)](https://badge.fury.io/js/%40yourorg%2Fnestjs-batteries)
+[![npm version](https://badge.fury.io/js/%40kitstack%2Fnestjs-batteries.svg)](https://badge.fury.io/js/%40kitstack%2Fnestjs-batteries)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/)
 
@@ -22,13 +22,13 @@ A drop-in NestJS module with built-in support for **JWT authentication** and **d
 ## 📦 Installation
 
 ```bash
-npm install @yourorg/nestjs-batteries
+npm install @kitstack/nestjs-batteries
 ```
 
 Or with Yarn:
 
 ```bash
-yarn add @yourorg/nestjs-batteries
+yarn add @kitstack/nestjs-batteries
 ```
 
 ### 📌 Peer Dependencies
@@ -64,7 +64,7 @@ Import and configure the module in your `AppModule`:
 
 ```typescript
 import { Module } from '@nestjs/common';
-import { NestJsBatteriesModule } from '@yourorg/nestjs-batteries';
+import { NestJsBatteriesModule } from '@kitstack/nestjs-batteries';
 
 @Module({
   imports: [
