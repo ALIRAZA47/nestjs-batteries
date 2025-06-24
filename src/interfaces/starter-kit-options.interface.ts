@@ -1,7 +1,6 @@
-
-import { JwtModuleOptions } from '@nestjs/jwt';
-import { TypeOrmModuleOptions } from '@nestjs/typeorm';
-import { MongooseModuleOptions } from '@nestjs/mongoose';
+import {JwtModuleOptions} from '@nestjs/jwt';
+import {TypeOrmModuleOptions} from '@nestjs/typeorm';
+import {MongooseModuleOptions} from '@nestjs/mongoose';
 
 export interface NestJsBatteriesOptions {
     auth?: {

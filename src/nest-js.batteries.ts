@@ -1,7 +1,7 @@
-import { Module, DynamicModule, Global } from '@nestjs/common';
-import { TypeOrmModule } from '@nestjs/typeorm';
-import { MongooseModule } from '@nestjs/mongoose';
-import { JwtModule } from '@nestjs/jwt';
+import {DynamicModule, Global, Module} from '@nestjs/common';
+import {TypeOrmModule} from '@nestjs/typeorm';
+import {MongooseModule} from '@nestjs/mongoose';
+import {JwtModule} from '@nestjs/jwt';
 
 import {NestJsBatteriesOptions} from "./interfaces/starter-kit-options.interface";
 
